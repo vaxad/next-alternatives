@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 13 Pro Max",
+    "rating": 5,
+    "description": "The most advanced iPhone ever, with a stunning Super Retina XDR display and the powerful A15 Bionic chip.",
+    "longDescription": "Skate ipsum dolor sit amet, yeah poseur casper nosebone downhill wax coping. Tom Knox salad grind Saran Wrap ollie hole Christ air dude shoveit smith grind. Hang up cess slide air axle set rail slide boardslide manual. 270 Girl stoked 720 boned out berm handplant 180. Full-cab transfer rail slide kidney noseblunt slide bail backside. Coffin 50-50 Johnny Rad smith grind switch mini ramp locals g-turn. Death box bluntslide ho-ho handplant gnar bucket nose-bump Jai Alai Banks nosepicker. Pivot 180 gnar bucket ledge death box Tracker noseblunt slide Steve Olson. Freestyle chicken wing grind helipop flypaper frontside kick-nose.",
+    "price": 1099.0,
+    "currency": "USD",
+    "category": "Phones",
+    "href": "apple-iphone-13-pro-max",
+    "images": [
+      {
+        "url": "/images/products/iphone-1.png",
+        "alt": "iPhone 13 Pro Max Image"
+      },
+      {
+        "url": "/images/products/iphone-2.png",
+        "alt": "iPhone 13 Pro Max Image"
+      }
+    ],
+    "details": [
+      {
+        "name": "Features",
+        "items": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3",
+          "Feature 4",
+          "Feature 5"
+        ]
+      },
+      {
+        "name": "Specifications",
+        "items": [
+          "Specification 1",
+          "Specification 2",
+          "Specification 3",
+          "Specification 4",
+          "Specification 5"
+        ]
+      }
+    ],
+    "colors": [
+      {
+        "name": "Washed Black",
+        "bgColor": "bg-gray-700",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "White",
+        "bgColor": "bg-white",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Silver",
+        "bgColor": "bg-gray-200",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Orange",
+        "bgColor": "bg-accent-300",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Blue",
+        "bgColor": "bg-primary-800",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Dark Blue",
+        "bgColor": "bg-secondary-900",
+        "selectedColor": "ring-gray-500"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21 Ultra",
+    "rating": 3,
+    "description": "Experience the ultimate in smartphone technology with the Samsung Galaxy S21 Ultra, featuring an incredible camera and 5G connectivity.",
+    "longDescription": "Skate ipsum dolor sit amet, yeah poseur casper nosebone downhill wax coping. Tom Knox salad grind Saran Wrap ollie hole Christ air dude shoveit smith grind. Hang up cess slide air axle set rail slide boardslide manual. 270 Girl stoked 720 boned out berm handplant 180. Full-cab transfer rail slide kidney noseblunt slide bail backside. Coffin 50-50 Johnny Rad smith grind switch mini ramp locals g-turn. Death box bluntslide ho-ho handplant gnar bucket nose-bump Jai Alai Banks nosepicker. Pivot 180 gnar bucket ledge death box Tracker noseblunt slide Steve Olson. Freestyle chicken wing grind helipop flypaper frontside kick-nose.",
+    "price": 1299.99,
+    "currency": "USD",
+    "category": "Phones",
+    "href": "samsung-galaxy-s21-ultra",
+    "images": [
+      {
+        "url": "/images/products/galaxy-1.png",
+        "alt": "Galaxy S22 Ultra Image"
+      },
+      {
+        "url": "/images/products/galaxy-2.png",
+        "alt": "Galaxy S22 Ultra Image"
+      }
+    ],
+    "details": [
+      {
+        "name": "Features",
+        "items": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3",
+          "Feature 4",
+          "Feature 5"
+        ]
+      },
+      {
+        "name": "Specifications",
+        "items": [
+          "Specification 1",
+          "Specification 2",
+          "Specification 3",
+          "Specification 4",
+          "Specification 5"
+        ]
+      }
+    ],
+    "colors": [
+      {
+        "name": "Orange",
+        "bgColor": "bg-accent-300",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Blue",
+        "bgColor": "bg-primary-800",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Dark Blue",
+        "bgColor": "bg-secondary-900",
+        "selectedColor": "ring-gray-500"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Steam Deck",
+    "rating": 5,
+    "description": "All-in-one portable PC gaming.",
+    "longDescription": "Skate ipsum dolor sit amet, yeah poseur casper nosebone downhill wax coping. Tom Knox salad grind Saran Wrap ollie hole Christ air dude shoveit smith grind. Hang up cess slide air axle set rail slide boardslide manual. 270 Girl stoked 720 boned out berm handplant 180. Full-cab transfer rail slide kidney noseblunt slide bail backside. Coffin 50-50 Johnny Rad smith grind switch mini ramp locals g-turn. Death box bluntslide ho-ho handplant gnar bucket nose-bump Jai Alai Banks nosepicker. Pivot 180 gnar bucket ledge death box Tracker noseblunt slide Steve Olson. Freestyle chicken wing grind helipop flypaper frontside kick-nose..",
+    "price": 399.0,
+    "currency": "USD",
+    "category": "Entertainment",
+    "href": "steam-deck",
+    "images": [
+      {
+        "url": "/images/products/steamDeck-1.png",
+        "alt": "Steam Deck Image"
+      },
+      {
+        "url": "/images/products/steamDeck-2.png",
+        "alt": "Steam Deck Image"
+      }
+    ],
+    "colors": [
+      {
+        "name": "Washed Black",
+        "bgColor": "bg-gray-700",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "White",
+        "bgColor": "bg-white",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Blue",
+        "bgColor": "bg-primary-800",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Dark Blue",
+        "bgColor": "bg-secondary-900",
+        "selectedColor": "ring-gray-500"
+      }
+    ],
+    "details": [
+      {
+        "name": "Features",
+        "items": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3",
+          "Feature 4",
+          "Feature 5"
+        ]
+      },
+      {
+        "name": "Specifications",
+        "items": [
+          "Specification 1",
+          "Specification 2",
+          "Specification 3",
+          "Specification 4",
+          "Specification 5"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Apple MacBook Pro 16-inch",
+    "rating": 4,
+    "description": "The ultimate MacBook Pro, with a stunning 16-inch Retina display and the powerful M1 Pro chip.",
+    "longDescription": "Skate ipsum dolor sit amet, yeah poseur casper nosebone downhill wax coping. Tom Knox salad grind Saran Wrap ollie hole Christ air dude shoveit smith grind. Hang up cess slide air axle set rail slide boardslide manual. 270 Girl stoked 720 boned out berm handplant 180. Full-cab transfer rail slide kidney noseblunt slide bail backside. Coffin 50-50 Johnny Rad smith grind switch mini ramp locals g-turn. Death box bluntslide ho-ho handplant gnar bucket nose-bump Jai Alai Banks nosepicker. Pivot 180 gnar bucket ledge death box Tracker noseblunt slide Steve Olson. Freestyle chicken wing grind helipop flypaper frontside kick-nose.",
+    "price": 2499.0,
+    "currency": "USD",
+    "category": "Laptops",
+    "href": "apple-macbook-pro-16-inch",
+    "images": [
+      {
+        "url": "/images/products/macBook-1.png",
+        "alt": "MacBook Pro Image"
+      },
+      {
+        "url": "/images/products/macBook-2.png",
+        "alt": "MacBook Pro Image"
+      }
+    ],
+    "colors": [
+      {
+        "name": "Washed Black",
+        "bgColor": "bg-gray-700",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "White",
+        "bgColor": "bg-white",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Silver",
+        "bgColor": "bg-gray-200",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Orange",
+        "bgColor": "bg-accent-300",
+        "selectedColor": "ring-gray-500"
+      }
+    ],
+    "details": [
+      {
+        "name": "Features",
+        "items": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3",
+          "Feature 4",
+          "Feature 5"
+        ]
+      },
+      {
+        "name": "Specifications",
+        "items": [
+          "Specification 1",
+          "Specification 2",
+          "Specification 3",
+          "Specification 4",
+          "Specification 5"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Microsoft Surface Pro 9",
+    "rating": 3,
+    "description": "Surface Pro 9 gives you the tablet flexibility you want and the laptop performance and battery life you need to move through your day — all in one ultra-portable device.",
+    "longDescription": "SSkate ipsum dolor sit amet, yeah poseur casper nosebone downhill wax coping. Tom Knox salad grind Saran Wrap ollie hole Christ air dude shoveit smith grind. Hang up cess slide air axle set rail slide boardslide manual. 270 Girl stoked 720 boned out berm handplant 180. Full-cab transfer rail slide kidney noseblunt slide bail backside. Coffin 50-50 Johnny Rad smith grind switch mini ramp locals g-turn. Death box bluntslide ho-ho handplant gnar bucket nose-bump Jai Alai Banks nosepicker. Pivot 180 gnar bucket ledge death box Tracker noseblunt slide Steve Olson. Freestyle chicken wing grind helipop flypaper frontside kick-nose.",
+    "price": 999.99,
+    "currency": "USD",
+    "category": "Laptops",
+    "href": "microsoft-surface-pro-9",
+    "images": [
+      {
+        "url": "/images/products/surface-1.png",
+        "alt": "Surface Laptop Image"
+      },
+      {
+        "url": "/images/products/surface-2.png",
+        "alt": "Surface Laptop Image"
+      }
+    ],
+    "colors": [
+      {
+        "name": "Washed Black",
+        "bgColor": "bg-gray-700",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "White",
+        "bgColor": "bg-white",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Silver",
+        "bgColor": "bg-gray-200",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Orange",
+        "bgColor": "bg-accent-300",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Blue",
+        "bgColor": "bg-primary-800",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Dark Blue",
+        "bgColor": "bg-secondary-900",
+        "selectedColor": "ring-gray-500"
+      }
+    ],
+    "details": [
+      {
+        "name": "Features",
+        "items": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3",
+          "Feature 4",
+          "Feature 5"
+        ]
+      },
+      {
+        "name": "Specifications",
+        "items": [
+          "Specification 1",
+          "Specification 2",
+          "Specification 3",
+          "Specification 4",
+          "Specification 5"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 2,
+    "name": "Phones",
+    "href": "phones",
+    "imageSrc": "/images/phones-category.png"
+  },
+  {
+    "id": 1,
+    "name": "Entertainment",
+    "href": "entertainment",
+    "imageSrc": "/images/entertainment-category.png"
+  },
+  {
+    "id": 3,
+    "name": "Laptops",
+    "href": "laptops",
+    "imageSrc": "/images/laptops-category.png"
+  },
+  {
+    "id": 4,
+    "name": "All Products",
+    "href": "all",
+    "imageSrc": ""
+  }
+]

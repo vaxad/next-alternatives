@@ -1,0 +1,59 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import LogoCloud from "../components/LogoCloud";
+
+import logos from "../data/logos.json";
+---
+
+<Layout title="Astro Shop">
+  <header>
+    <Header
+      title={"Astro Shop"}
+      description={"Astro Shop is a demo e-commerce site built with Astro."}
+    />
+  </header>
+  <main>
+
+       <div class="mb-24 pt-16 sm:pt-24 xl:mx-auto xl:max-w-7xl xl:px-8">
+          <img
+            src="/images/about.jpg"
+            alt=""
+            class="aspect-[9/4] w-full object-cover xl:rounded-3xl"
+          />
+        </div>
+    <!-- TODO: this needs content/info from the readme, etc... -->
+    <p class="text-center max-w-6xl mx-auto mt-5 tracking-wide leading-loose px-10 p xl:p-0">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse adipisci
+      dolor at quibusdam sapiente cum impedit est maxime in corrupti, nihil
+      omnis quasi magnam dolores eaque sunt. Libero, laudantium quas?   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse adipisci
+      dolor at quibusdam sapiente cum impedit est maxime in corrupti, nihil
+      omnis quasi magnam dolores eaque sunt. Libero, laudantium quas?
+    </p>
+    <p class="text-center max-w-6xl mx-auto mt-5 tracking-wide leading-loose px-10 p xl:p-0">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse adipisci
+      dolor at quibusdam sapiente cum impedit est maxime in corrupti, nihil
+      omnis quasi magnam dolores eaque sunt. Libero, laudantium quas?   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse adipisci
+      dolor at quibusdam sapiente cum impedit est maxime in corrupti, nihil
+      omnis quasi magnam dolores eaque sunt. Libero, laudantium quas?
+    </p>
+    <p class="text-center max-w-6xl mx-auto mt-5 tracking-wide leading-loose px-10 p xl:p-0">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse adipisci
+      dolor at quibusdam sapiente cum impedit est maxime in corrupti, nihil
+      omnis quasi magnam dolores eaque sunt. Libero, laudantium quas?   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse adipisci
+      dolor at quibusdam sapiente cum impedit est maxime in corrupti, nihil
+      omnis quasi magnam dolores eaque sunt. Libero, laudantium quas?
+    </p>
+
+
+
+      <LogoCloud
+        heading={{
+          __html:
+            'Built by <a aria-label="link to jared makes website - link opens in a new tab" class="text-accent-600 decoration-accent-400 underline-offset-2 hover:text-accent-400 hover:underline" href="https://jaredmakes.com" target="_blank" rel="noopener" >JaredMakes</a>. Powered by:',
+        }}
+        logos={logos}
+      />
+
+  </main>
+</Layout>

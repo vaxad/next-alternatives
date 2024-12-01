@@ -1,0 +1,18 @@
+[
+  {
+    "imgSrc": "/images/logos/astro-icon-dark.svg",
+    "imgAlt": "Astro Logo"
+  },
+  {
+    "imgSrc": "/images/logos/Typescript.png",
+    "imgAlt": "TypeScript Logo"
+  },
+  {
+    "imgSrc": "/images/logos/React-icon.png",
+    "imgAlt": "React Logo"
+  },
+  {
+    "imgSrc": "/images/logos/Tailwind_CSS_Logo.png",
+    "imgAlt": "Tailwind Logo"
+  }
+]

@@ -1,0 +1,31 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.tsx";
+import Category from "../../components/Category.tsx";
+import FeatureRow from "../../components/FeatureRow.tsx";
+import Filters from "../../components/Filters.tsx";
+
+import categories from "../../data/categories.json";
+
+export function getStaticPaths() {
+  return categories.map((category) => ({
+    params: {
+      slug: category.href,
+    },
+    props: {
+      category,
+    },
+  }));
+}
+
+const { category } = Astro.props;
+---
+
+<Layout title={category.name}>
+  <Header title={category.name} />
+  <main>
+    <!-- <Category categoryName={category.name} /> -->
+    <Filters category={category} client:load/>
+    <FeatureRow categories={categories} />
+  </main>
+</Layout>

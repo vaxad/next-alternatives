@@ -1,0 +1,12 @@
+{
+  "heading": "We ❤️ Gadgets And Gear",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "cta": {
+    "text": "Read About Us",
+    "href": "/about"
+  },
+  "image": {
+    "src": "/images/all-the-gadgets.jpg",
+    "alt": ""
+  }
+}

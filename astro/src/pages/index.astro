@@ -1,0 +1,60 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.tsx";
+import FeatureRow from "../components/FeatureRow.tsx";
+import AccessoryBlocks from "../components/AccessoryBlocks.tsx";
+import Promo from "../components/Promo.tsx";
+import Reviews from "../components/Reviews.tsx";
+import categories from "../data/categories.json";
+import products from "../data/products.json";
+import hero from "../data/hero.json";
+import promo from "../data/promo.json";
+import reviews from "../data/reviews.json";
+import exclusiveOffer from "../data/exclusive-offer.json";
+
+// correct href structure //
+const mappedCategories = categories.filter((cat) => cat.name !== 'All').map((cat) => {
+  return {
+    ...cat,
+    href: `/category/${cat.href}`,
+  };
+});
+
+// using sort to randomize the products on each build also add 'product' to slug //
+const productsProp = products
+  .map((p) => {
+    return {
+      ...p,
+      href: `products/${p.href}`,
+      imageSrc: p.images.sort((a, b) => 0.5 - Math.random())[0].url,
+    };
+  })
+  .sort((a, b) => 0.5 - Math.random())
+  .slice(0, 4);
+---
+
+<Layout title="Astro Shop">
+  <Hero
+    cta={hero.cta}
+    heading={hero.heading}
+    description={hero.description}
+    heroImage={hero.heroImage}
+  />
+  <main>
+    <FeatureRow categories={mappedCategories} />
+    <Promo
+      backgroundImage={promo.image.src}
+      heading={promo.heading}
+      description={promo.description}
+      button={promo.cta}
+    />
+    <AccessoryBlocks title="Top Selling Products" products={productsProp} />
+    {/* load on visible to support modal */}
+    <Reviews
+      testimonials={reviews}
+      offer={exclusiveOffer}
+      client:idle
+      client:visible
+    />
+  </main>
+</Layout>

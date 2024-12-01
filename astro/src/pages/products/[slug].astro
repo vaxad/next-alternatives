@@ -1,0 +1,42 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.tsx";
+import AccessoryBlocks from "../../components/AccessoryBlocks.tsx";
+import Product from "../../components/Product.tsx";
+
+import products from "../../data/products.json";
+
+export function getStaticPaths() {
+  return products.map((product) => ({
+    params: {
+      slug: product.href,
+    },
+    props: {
+      product,
+    },
+  }));
+}
+
+// using sort to randomize the products on each build //
+const productsProp = products
+  .map((p) => {
+    return {
+      ...p,
+      imageSrc: p.images.sort((a, b) => 0.5 - Math.random())[0].url,
+    };
+  })
+  .sort((a, b) => 0.5 - Math.random())
+  .slice(0, 4);
+
+const { product } = Astro.props;
+---
+
+<Layout title={product.name}>
+  <Header title={product.name} description={product.description} />
+  <Product product={product} client:visible />
+  <AccessoryBlocks
+    title="You May Also Like"
+    small={true}
+    products={productsProp}
+  />
+</Layout>
